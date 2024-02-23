@@ -1,0 +1,9 @@
+location,f1,f2,f3,type,f5,id,f7,amount,cost
+EU,f1,f2,f3,type1,f5,1,f7,1000,900
+I,f1,f2,f3,type1,f5,4001,f7,999,888
+USA,f1,f2,f3,type2,f5,2,f7,333,222
+UK,f1,f2,f3,type2,f5,200,f7,100,227
+NL,f1,f2,f3,type2,f5,300,f7,101,228
+JP,f1,f2,f3,type2,f5,20000,f7,101,555
+ES,f1,f2,f3,type2,f5,20001,f7,102,229
+GR,f1,f2,f3,type2,f5,20002,f7,103,300
