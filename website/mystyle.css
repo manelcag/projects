@@ -1,0 +1,35 @@
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+.my-subject {
+	background-color: aliceblue;
+	font-family: Verdana, sans-serif;
+	border: 0px;
+}
+
+.my-body {
+	background-color: aliceblue;
+	font-family: Verdana, sans-serif;
+	border: 0px;
+}
+
+.my-label {
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.submit-data {
+	color: green;
+	margin-top: 50px;
+}
+
+tr.spaceUnder>td {
+  padding-bottom: 4em;
+}

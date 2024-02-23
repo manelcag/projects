@@ -1,0 +1,69 @@
+<html> 
+    <head> 
+        <title>Manel Casado website</title> 
+		<link rel="stylesheet" href="mystyle.css">
+    </head> 
+    <body> 
+    <h1>This is my website</h1>
+
+    <h2>my favorite links</h2>
+    <table>
+        <!-- Bethel website -->
+        <tr>
+            <td>
+                <a href="https://betheluniversity.edu/">Bethel University</a>
+            </td>
+        </tr>
+        <!-- Best soccer club -->
+        <tr>
+            <td>
+                <a href="https://www.fcbarcelona.com/">Visit FCB</a>
+            </td>
+        </tr>
+        <!-- Best soccer club, but when user click on, a new tab will be opened -->
+        <tr>
+            <td>
+				<a href="https://www.fcbarcelona.com/" alt="Visit FCB in a new tab" target="_blank">
+					<img src="fcb.png" alt="Best soccer club.">
+				</a>
+            </td>
+        </tr>
+        <!-- My cv -->
+        <tr class="spaceUnder">
+            <td>
+                <a href="cv.html" target="_blank">My cv</a>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Line break-->
+    <hr>
+
+    <form id="form1" action="https://www.w3schools.com/action_page.php" method="POST" >
+		<table>
+            <!-- Subject -->
+		    <tr class="spaceUnder">
+				<td>
+                    <label for="subject" class="my-label">Subject (*):</label>
+					<input id="subject" name="subject" class="my-subject" maxlength="100" placeholder="enter a subject" required="true"/>
+				</td>
+			</tr>
+            <!-- Body -->
+			<tr>
+				<td>
+					<label for="body" class="my-label">Body (*):</label>
+                    <textarea id="body" name="body" class="my-body" rows="10" cols="50" required="true" placeholder="Describe your question"></textarea>
+				</td>
+			</tr>
+		</table>
+
+        <input type="submit" class="submit-data" value="Submit">
+	</form>
+
+    <!-- email to me -->
+    <h3>Contact</h3> 
+    <p>
+      For any info or questions, do not hesitate to <a href="mailto:manelcag@gmail.com">contact me</a> 
+    </p> 
+    </body> 
+</html>
